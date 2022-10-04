@@ -1,0 +1,70 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+}
+
+.header {
+    text-align: center;
+    background-color: lightblue;
+    padding: 5%;
+  }
+
+.header__title {
+    border: black;
+    font-size: 5vw;
+}
+
+button {
+    border-bottom-width: thick;
+}
+
+.container__section {
+    margin: 2px;
+    padding: 15px;
+    border: solid;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility, opacity 200ms;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility, opacity 200ms;
+}
+.notVisible {
+    visibility: visible;
+    opacity: 0;
+    transition: visibility, opacity 200ms;
+}
+
+#responseFree {
+    border-bottom: solid;
+    border-color: #000000;
+}
+#responseMultiple {
+    border-bottom: solid;
+    border-color: #000000;
+}
+
+.button__hover {
+    background-color: white;
+    transition: background-color 150ms;
+}
+
+.true {
+    background-color: #d4edda;
+    transition: background-color 200ms;
+}
+.false {
+    background-color: #f8d7da;;
+    transition: background-color 200ms;
+}
+
